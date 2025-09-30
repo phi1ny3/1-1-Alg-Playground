@@ -1,0 +1,80 @@
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffeada; /* light background? */
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  background: #087400;
+  color: white;
+  padding: 1.5rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+/* Grid Layout for Cards */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+/* Card Styling */
+.card {
+  background: #fff; 
+  padding: 1rem;
+  border-radius: 10px;    /* round per instruction */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.card h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: #4a4a4a;
+}
+
+.card input {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Button Styling */
+button {
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 8px;
+  background: #087400;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.15s ease, transform 0.05s ease;
+}
+button:hover { background: #054900; }
+button:active { transform: translateY(1px); }
+
+/* Result Styling */
+.result {
+  margin-top: 0.5rem;
+  font-weight: bold;
+  color: #5051ac;       /* success */
+  font-size: 1.1rem;
+  min-height: 1.4em; /* keeps box steady even before output */
+}
+
+.result.error {
+  color: #d33;       /* invalid input */
+}
