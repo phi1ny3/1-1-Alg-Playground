@@ -1,0 +1,24 @@
+{
+  "name": "1-1-alg-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phi1ny3/1-1-Alg-Playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phi1ny3/1-1-Alg-Playground/issues"
+  },
+  "homepage": "https://github.com/phi1ny3/1-1-Alg-Playground#readme",
+  "devDependencies": {
+    "@types/node": "^24.6.1",
+    "typescript": "^5.9.3"
+  }
+}
