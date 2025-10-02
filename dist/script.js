@@ -1,3 +1,6 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+// Some changes to be made esp with guards
 function getEl(id) {
     const el = document.getElementById(id);
     if (!el)
@@ -187,8 +190,5 @@ function setup() {
     getEl("sum-btn").addEventListener("click", handleSumToN);
     getEl("eo-btn").addEventListener("click", handleEvenOdd);
 }
-//document.addEventListener("DOMContentLoaded", setup); Doesn't work if start runs at dist/index.js
-if (typeof document !== "undefined") {
-    document.addEventListener("DOMContentLoaded", setup);
-}
+document.addEventListener("DOMContentLoaded", setup);
 //# sourceMappingURL=script.js.map

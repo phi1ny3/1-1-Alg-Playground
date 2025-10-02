@@ -4,6 +4,10 @@
   "description": "",
   "main": "script.js",
   "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "serve": "http-server . -c-1 -p 5173",
+    "start": "npm run serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
