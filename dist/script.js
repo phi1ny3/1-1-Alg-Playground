@@ -37,7 +37,7 @@ function handleReverse() {
     }
     showResult("rev-result", chars.join(""), false);
 }
-// 2) Factorial Calculator (use BigInt to avoid Number overflow)
+// 2) Factorial Calculator (Now using BigInt to avoid num overflow, thanks ChatGPT)
 function factorialBigInt(n) {
     let result = 1n;
     for (let i = 2; i <= n; i++)
